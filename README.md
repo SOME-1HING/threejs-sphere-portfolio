@@ -1,2 +1,1 @@
-# threejs-sphere-portfolio
- 
+# ThreeJs Sphere Portfolio
