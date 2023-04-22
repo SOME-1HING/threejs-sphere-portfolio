@@ -40,7 +40,7 @@ const CustomCursor = () => {
 const isMobileDevice =
   /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
     navigator.userAgent
-  ) && Math.max(window.innerWidth, window.innerHeight) < 768;
+  ) || Math.max(window.innerWidth, window.innerHeight) < 768;
 
 const CursorWrapper = () => {
   if (isMobileDevice) {
