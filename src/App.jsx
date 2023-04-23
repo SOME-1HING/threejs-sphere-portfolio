@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Link } from "react-scroll";
 import CustomCursor from "./utils/CustomCursor";
 import Navbar from "./pages/Navbar";
 import Hero from "./pages/Hero";
